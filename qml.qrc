@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qtquickcontrols2.conf</file>
+        <file>qml/LeftMenu.qml</file>
+        <file>qml/main.qml</file>
+        <file>qml/Showcase.qml</file>
+        <file>qml/Welcome.qml</file>
+        <file>qml/NavigationSingleton.qml</file>
+        <file>qml/TopicSelection.qml</file>
+        <file>qml/UploadPanel.qml</file>
+        <file>res/heightmap.png</file>
+        <file>qml/component/NotificationPopup.qml</file>
+        <file>qml/component/FAButton.qml</file>
+        <file>qml/component/fontawesome-webfont.ttf</file>
+        <file>res/qtday2019logo.png</file>
+        <file>qml/PlaygroundConsole.qml</file>
+        <file>deps/qmlhighlighter/dictionaries/qml.txt</file>
+        <file>deps/qmlhighlighter/dictionaries/properties.txt</file>
+        <file>deps/qmlhighlighter/dictionaries/keywords.txt</file>
+        <file>deps/qmlhighlighter/dictionaries/javascript.txt</file>
+    </qresource>
+</RCC>

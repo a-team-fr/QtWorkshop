@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/showcase/MapMain.qml</file>
+        <file>qml/showcase/SensorsMain.qml</file>
+        <file>qml/showcase/TTSMain.qml</file>
+        <file>qml/showcase/SoundBoxMain.qml</file>
+        <file>qml/showcase/FlickrMain.qml</file>
+        <file>qml/showcase/CameraMain.qml</file>
+        <file>qml/showcase/BTMain.qml</file>
+        <file>qml/showcase/profile.png</file>
+        <file>qml/showcase/DatavizMain.qml</file>
+        <file>qml/showcase/WarmupMain.qml</file>
+        <file>qml/showcase/FreeMain.qml</file>
+    </qresource>
+</RCC>
