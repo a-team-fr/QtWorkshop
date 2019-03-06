@@ -86,29 +86,17 @@ The sole purpose of the showcase is to give you an idea of what kind of things y
    * [ ] improve syntax highlight
  * Topics
    * [ ] warmup
-      * [ ] wiki page created
    * [x] SoundBox
-      * [x] wiki page created
    * [x] Camera
-      * [ ] wiki page created
    * [x] Map
-      * [ ] wiki page created
    * [x] TTS
-      * [ ] wiki page created
    * [x] Sensors
-      * [ ] wiki page created
    * [x] Uncharted
-      * [ ] wiki page created
    * [x] Flick'r
-      * [ ] wiki page created
    * [ ] Messy ( a refactoring challenges)
-      * [ ] wiki page created
    * [ ] Canvas
-      * [ ] wiki page created
    * [ ] Websocket
-      * [ ] wiki page created
    * [x] Free
-      * [ ] wiki page created
  * Successfully built on
    * MacOs 
      * [x] Qt5.12.1 
