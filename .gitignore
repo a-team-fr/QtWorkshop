@@ -46,3 +46,5 @@ playgrounds/*
 ios/*
 store/*
 android/*
+
+*.qrc
