@@ -83,7 +83,7 @@ The sole purpose of the showcase is to give you an idea of what kind of things y
    * [x] add an edit mode showing the QML code, enable modification and update
    * [x] create a warmup topic
    * [x] improve UI/UX
-   * [ ] improve syntax highlight
+   * [x] integrate basic QML syntax highlight
  * Topics
    * [ ] warmup
    * [x] SoundBox
