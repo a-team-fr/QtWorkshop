@@ -17,16 +17,16 @@
 ****************************************************************************/
 
 #include "QMLHighlighter.h"
-
+#include <QDebug>
 
 QMLHighlighter::QMLHighlighter(QTextDocument *parent) : QSyntaxHighlighter(parent)
     , m_markCaseSensitivity(Qt::CaseInsensitive)
 {
     if (!m_cacheLoaded) {
-        loadDictionary(":/deps/qmlhighlighter/dictionaries/keywords.txt", m_keywordsCache);
-        loadDictionary(":/deps/qmlhighlighter/javascript.txt", m_jsIdsCache);
-        loadDictionary(":/deps/qmlhighlighter/qml.txt", m_qmlIdsCache);
-        loadDictionary(":/deps/qmlhighlighter/properties.txt", m_propertiesCache);
+        loadDictionary(":./deps/qmlhighlighter/dictionaries/keywords.txt", m_keywordsCache);
+        loadDictionary(":./deps/qmlhighlighter/dictionaries/javascript.txt", m_jsIdsCache);
+        loadDictionary(":./deps/qmlhighlighter/dictionaries/qml.txt", m_qmlIdsCache);
+        loadDictionary(":./deps/qmlhighlighter/dictionaries/properties.txt", m_propertiesCache);
         m_cacheLoaded = true;
     }
 }
@@ -189,12 +189,18 @@ void QMLHighlighter::mark(const QString &str, Qt::CaseSensitivity caseSensitivit
 }
 
 void QMLHighlighter::loadDictionary(QString filepath, QSet<QString> &dictionary) {
-    QFile file(filepath);
-    file.open(QIODevice::ReadOnly | QIODevice::Text);
+    QString path = QUrl::fromLocalFile(filepath).toLocalFile();
+    QFile file( path);
+    if ( !file.open(QIODevice::ReadOnly | QIODevice::Text))
+    {
+        qDebug() << "error reading "<<path;
+        return;
+    }
     QTextStream textStream(&file);
     while (!textStream.atEnd()) {
         dictionary<<textStream.readLine().trimmed();
     }
+    file.close();
 }
 
 void QMLHighlighter::addQmlComponent(QString componentName)
