@@ -100,7 +100,7 @@ The sole purpose of the showcase is to give you an idea of what kind of things y
  * Successfully built on
    * MacOs 
      * [x] Qt5.12.1 
-     * [ ] Qt5.9.7
+     * [x] Qt5.9.7
    * MS Windows 10
      * [x] Qt5.12.1
    * GNU/Linux (Debian Jessy)
