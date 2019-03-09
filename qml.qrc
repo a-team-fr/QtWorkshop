@@ -18,5 +18,6 @@
         <file>deps/qmlhighlighter/dictionaries/properties.txt</file>
         <file>deps/qmlhighlighter/dictionaries/keywords.txt</file>
         <file>deps/qmlhighlighter/dictionaries/javascript.txt</file>
+        <file>res/Firenze.png</file>
     </qresource>
 </RCC>
