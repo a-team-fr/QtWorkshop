@@ -38,7 +38,7 @@ Finally, the application can show the QML content and support live editing (cred
 ![inlineeditor](https://user-images.githubusercontent.com/9682519/53829885-7a7f3980-3f81-11e9-94e6-32200c0803dc.png)
 
 ## topics candidate
-[(See the wiki)](https://github.com/a-team-fr/QtWorkshop/wiki) (Work In Progress)
+[(See the wiki)](https://github.com/a-team-fr/QtWorkshop/wiki)
 
 <table style="border:0px;" width="100%">
 <tr>
@@ -58,7 +58,9 @@ The remote location of playgrounds support HTTPS but only HTTP is used by defaul
 ## how to start ?
 
 1. git clone the project
-' git clone https://github.com/a-team-fr/QtWorkshop.git
+```
+git clone https://github.com/a-team-fr/QtWorkshop.git
+```
 
 2. Open the project with QtCreator
 
