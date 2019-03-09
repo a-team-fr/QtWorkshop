@@ -43,7 +43,7 @@ Finally, the application can show the QML content and support live editing (cred
 <table style="border:0px;" width="100%">
 <tr>
 <td><img width="342" height="295" src="https://user-images.githubusercontent.com/9682519/53829928-91be2700-3f81-11e9-86f4-ec95f4aff762.png" alt="topicmap"></td>
-<td><img width="342" height="295" src="https://user-images.githubusercontent.com/9682519/53829923-91be2700-3f81-11e9-8277-502d9408b00a.png" alt="topicdataviz"></td>
+<td><img width="342" height="295" src="https://user-images.githubusercontent.com/9682519/54071479-27510380-426d-11e9-9510-015179484918.png" alt="topicdataviz"></td>
 </tr>
 <tr>
 <td><img width="342" height="295" src="https://user-images.githubusercontent.com/9682519/53829926-91be2700-3f81-11e9-90e2-66e84521f8a4.png" alt="topicflickr"></td>
@@ -69,8 +69,8 @@ The app has been published but in "showcase" mode : it is not possible to create
 
 The sole purpose of the showcase is to give you an idea of what kind of things you could produce during the workshop.
 <center><table style="border:0px;"><tr>
- <td width="300"><a href="https://play.google.com/store/apps/details?id=fr.ateam.qtworkshop"><img height="150" src="https://www.technobuffalo.com/wp-content/uploads/2012/03/google_play_03.jpg" alt="QtWorkshop on Google play"></a></td>
- <td width="300"><a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1454568374&mt=8"><img height="150" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/App_Store_OS_X.svg/220px-App_Store_OS_X.svg.png" alt="QtWorkshop on AppStore"></a></td>
+ <td width="300"><a href="https://play.google.com/store/apps/details?id=fr.ateam.qtworkshop"><img height="150" src="https://user-images.githubusercontent.com/9682519/54073829-d69cd300-428b-11e9-992f-e76780767de4.jpg" alt="QtWorkshop on Google play"></a></td>
+ <td width="300"><a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1454568374&mt=8"><img height="150" src="https://user-images.githubusercontent.com/9682519/54073830-d8669680-428b-11e9-9ba0-4461326dd6d3.jpg" alt="QtWorkshop on AppStore"></a></td>
  </tr></table></center>
 
 ## Roadmap
