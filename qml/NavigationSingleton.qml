@@ -90,6 +90,8 @@ Item {
         ListElement{ label:"Sensors"; image:"\uf076"; qmlName:"SensorsMain.qml"; details:"https://github.com/a-team-fr/QtWorkshop/wiki/Sensors" }
         ListElement{ label:"Uncharted"; image:"\uf1fe"; qmlName:"DatavizMain.qml"; details:"https://github.com/a-team-fr/QtWorkshop/wiki/DataViz" }
         ListElement{ label:"Flick'r"; image:"\uf16e"; qmlName:"FlickrMain.qml"; details:"https://github.com/a-team-fr/QtWorkshop/wiki/Flickr" }
+        ListElement{ label:"Messy"; image:"\uf165"; qmlName:"MessyMain.qml"; details:"https://github.com/a-team-fr/QtWorkshop/wiki/Messy" }
+        ListElement{ label:"Canvas"; image:"\uf044"; qmlName:"CanvasMain.qml"; details:"https://github.com/a-team-fr/QtWorkshop/wiki/Canvas" }
         ListElement{ label:"Free"; image:"\uf2c5"; qmlName:"FreeMain.qml"; details:"https://github.com/a-team-fr/QtWorkshop/wiki/Free" }
     }
 
