@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
     QTTSHelper tts( engine.rootContext() );
     engine.rootContext()->setContextProperty("playgroundManager", &playgroundManager);
     engine.rootContext()->setContextProperty("sourcePath", QString(SOURCE_PATH)); //QMake defined
-    engine.rootContext()->setContextProperty("showCaseMode", false);     //showCaseMode is used for publish to store (without menu)
+    engine.rootContext()->setContextProperty("showCaseMode", true);     //showCaseMode is used for publish to store (without menu)
     qmlRegisterSingletonType( QUrl("qrc:/qml/NavigationSingleton.qml"),"fr.ateam.qtworkshop", 1, 0,"NavMan");
 
     engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));

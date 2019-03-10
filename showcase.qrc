@@ -11,5 +11,8 @@
         <file>qml/showcase/DatavizMain.qml</file>
         <file>qml/showcase/WarmupMain.qml</file>
         <file>qml/showcase/FreeMain.qml</file>
+        <file>qml/showcase/MessyMain.qml</file>
+        <file>qml/showcase/Websocket.qml</file>
+        <file>qml/showcase/CanvasMain.qml</file>
     </qresource>
 </RCC>
