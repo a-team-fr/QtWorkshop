@@ -11,6 +11,7 @@ Item {
     property var settings : Settings{
         property string myAlias : ""
         property bool showWelcome : true
+        property int selectedTopic : showCaseMode ? -1 : 0
         property url localDocRoot : playgroundManager.filePathToUrl(sourcePath+"/playgrounds/")
     }
 
@@ -19,6 +20,7 @@ Item {
         settings.myAlias = myAlias;
         settings.localDocRoot = localDocRoot;
         settings.showWelcome = showWelcome
+        settings.selectedTopic = currentTopic
 
     }
 
@@ -33,6 +35,8 @@ Item {
         settings.localDocRoot = playgroundManager.filePathToUrl(sourcePath+"/playgrounds/")
         localDocRoot = playgroundManager.filePathToUrl(sourcePath+"/playgrounds/")
 
+        settings.selectedTopic = showCaseMode ? -1 : 0;
+
     }
 
     /*------------------------------------------------------------------------------------------
@@ -43,7 +47,7 @@ Item {
     property bool showWelcome : settings.showWelcome
 
     property bool useRemote : false
-    property int currentTopic : showCaseMode ? -1 : 0 //managed by TopicSelection.qml
+    property int currentTopic : settings.selectedTopic
     property string selectedAlias : myAlias //managed by LeftMenu.qml
     property bool showPlaygroundConsole : false //managed by LeftMenu.qml
     property bool showTopicSelector : isAliasSelected && !showPlaygroundConsole && !showWelcome
