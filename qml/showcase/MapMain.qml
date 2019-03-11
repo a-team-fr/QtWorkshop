@@ -3,7 +3,7 @@ import QtQuick.Controls 2.2
 import QtPositioning 5.9
 import QtLocation 5.9
 import QtQuick.Layouts 1.2
-import QtQuick.XmlListModel 2.12
+import QtQuick.XmlListModel 2.0
 import "../../qml/component"
 
 Pane{
@@ -333,7 +333,7 @@ Pane{
                         width:parent.width
                         TextField{ id:searchAddress;
                             width:parent.width
-                            text:"Piazza dell'Unit√† Italiana, 6, 50123 Firenze FI, Italie";}
+                            text:"Piazza dell'Unit‡ Italiana, 6, 50123 Firenze FI, Italie";}
                         Button{ text:qsTr("update"); onClicked: {
                                 geocode.query =  searchAddress.text;
                                 geocode.update()

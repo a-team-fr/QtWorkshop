@@ -80,7 +80,8 @@ Pane {
         modal:true
         width:200
         height:200
-        anchors.centerIn: parent
+        x: (parent.width - width)/2
+        y: (parent.height - height)/2
         MouseArea{
             anchors.fill:parent
             onClicked: completePopup.close()
