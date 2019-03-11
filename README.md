@@ -87,7 +87,7 @@ The sole purpose of the showcase is to give you an idea of what kind of things y
    * [x] improve UI/UX
    * [x] integrate basic QML syntax highlight
  * Topics
-   * [ ] warmup
+   * [x] warmup
    * [x] SoundBox
    * [x] Camera
    * [x] Map
@@ -95,9 +95,8 @@ The sole purpose of the showcase is to give you an idea of what kind of things y
    * [x] Sensors
    * [x] Uncharted
    * [x] Flick'r
-   * [ ] Messy ( a refactoring challenges)
-   * [ ] Canvas
-   * [ ] Websocket
+   * [x] Messy (a refactoring challenge)
+   * [x] Canvas (wip)
    * [x] Free
  * Successfully built on
    * MacOs 
