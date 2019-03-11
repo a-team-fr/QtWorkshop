@@ -103,7 +103,9 @@ The sole purpose of the showcase is to give you an idea of what kind of things y
      * [x] Qt5.12.1 
      * [x] Qt5.9.7
    * MS Windows 10
-     * [x] Qt5.12.1
+     * [x] Qt5.12.1 (MSVC2017 64b)
+     * [x] Qt5.9.7 (MSVC2017 64b)
+     * [x] Qt5.9.7 (MinGW 32b)
    * GNU/Linux (Debian Jessy)
      * [x] Qt5.10.2
  
