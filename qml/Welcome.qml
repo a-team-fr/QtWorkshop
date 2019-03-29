@@ -48,6 +48,7 @@ Pane {
                 Layout.alignment: Qt.AlignRight
                 text:qsTr("Next")
                 onClicked:{
+                    NavMan.saveSettings();
                     if (QtMultimedia.availableCameras.length === 0)
                         NavMan.showWelcome = false; //end wizard (skip step2)
                     view.currentIndex++;
@@ -88,6 +89,8 @@ Pane {
                     Button{
                         text:qsTr("Take photo")
                         onClicked: waitTxt.visible = true
+                        highlighted: true
+                        anchors.horizontalCenter: parent.horizontalCenter
                     }
                     Label{
                         id:waitTxt

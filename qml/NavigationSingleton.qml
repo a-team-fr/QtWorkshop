@@ -16,13 +16,15 @@ Item {
     }
 
     Component.onCompleted: console.log("DocRoot"+localDocRoot)
-    Component.onDestruction: {
+
+    function saveSettings(){
         settings.myAlias = myAlias;
         settings.localDocRoot = localDocRoot;
         settings.showWelcome = showWelcome
         settings.selectedTopic = currentTopic
-
     }
+
+    Component.onDestruction: saveSettings()
 
     function resetSettings()
     {
