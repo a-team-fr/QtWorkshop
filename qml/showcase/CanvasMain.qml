@@ -3,16 +3,29 @@ import QtQuick.Controls 2.2
 import QtQuick.Layouts 1.2
 import QtMultimedia 5.0
 import QtQuick.Dialogs 1.2
+import QtQuick.Window 2.12
 
 Pane {
-    ColumnLayout{
-        anchors.fill:parent
+    contentItem:ColumnLayout{
         RowLayout{
             Layout.fillWidth: true
             Button{
+                id:openColorDialog
                 background:Rectangle{ color:colorDialog.color}
                 text:qsTr("Color")
                 onClicked: colorDialog.open()
+
+                ColorDialog {
+                    id: colorDialog
+                    property point orig : openColorDialog.mapToGlobal(0, openColorDialog.height)
+                    onOrigChanged: console.log("zob"+orig)
+                    x:orig.x
+                    y:orig.y
+                    title: qsTr("Please choose a color")
+                    modality: Qt.ApplicationModal
+                }
+
+
             }
             Button{
                 text:qsTr("Save")
@@ -70,10 +83,7 @@ Pane {
 
 
     }
-    ColorDialog {
-        id: colorDialog
-        title: "Please choose a color"
-    }
+
 //    Video{
 //        anchors.fill:parent
 //        autoPlay: true

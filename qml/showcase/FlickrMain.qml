@@ -19,7 +19,7 @@ Pane {
     }
 
 
-    ColumnLayout{
+    contentItem:ColumnLayout{
         anchors.fill: parent
         spacing : 10
         TextField{

@@ -35,7 +35,7 @@ Pane {
         }
     }
 
-    Column{
+    contentItem:Column{
         anchors.fill : parent
         Label{
             id:warningMessage

@@ -5,7 +5,7 @@ import QtMultimedia 5.9
 import "../../qml/component"
 
 Pane {
-    Grid{
+    contentItem:Grid{
         id:grid
         anchors.centerIn : parent
         width : Math.min(parent.width, parent.height) - 3 * spacing

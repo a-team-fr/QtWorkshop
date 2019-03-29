@@ -2,7 +2,7 @@ import QtQuick 2.9
 import QtQuick.Controls 2.2
 
 Pane {
-    Label{
+    contentItem:Label{
         wrapMode: Text.WordWrap
         text:qsTr("<h1>This is your Sensors playground</h1>
 Just empty this file and replace with your qml code...<br>

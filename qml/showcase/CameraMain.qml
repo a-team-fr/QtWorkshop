@@ -42,9 +42,8 @@ Pane{
         }
     }
 
-    VideoOutput {
+    contentItem:VideoOutput {
         id: viewfinder
-        anchors.fill : parent
         source: camera
         autoOrientation: true
         orientation: camera.orientation
